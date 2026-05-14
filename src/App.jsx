@@ -12,7 +12,7 @@ import UserBriefs from "./pages/UserBriefs";
 import ApiSettings from "./pages/ApiSettings";
 import PublicBrief from "./pages/PublicBrief";
 import NotFound from "./pages/NotFound";
-import Intro from "./pages/intro";
+import Intro from "./pages/Intro";
 
 function Guard({ children, roles }) {
   const { user } = useAuth();
